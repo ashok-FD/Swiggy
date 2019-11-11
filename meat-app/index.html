@@ -1,0 +1,1010 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Meat-App</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/overlay.css">
+    <link rel="stylesheet" href="css/offer.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="slick/slider.css">
+</head>
+
+<body>
+    <div id="load_screen">
+        <div class="loader"></div>
+    </div>
+    <div class="header">
+        <div class="meatapp">MEAT APP</div>
+        <div class="searchcon search-container">
+            <button class="searchsubmit" type="submit"><i class="fa fa-search"></i></button>
+            <input class="searchbox" type="text" placeholder="Search.." name="search">
+
+        </div>
+        <button class="offer" id="offerPage"><img class="offerimage" src="images/offer icon.png" alt="offer">offers<span
+                class="newspan">NEW</span></button>
+        <button class="signin" onclick="on()"><img class="signinimage" src="images/profile.png" alt="signin">sign
+            in</button>
+        <button class="help"><img class="helpimage" src="images/help icon.png" alt="help"></button>
+        <button class="cart"><img class="cardimage" src="images/cart icon.png" alt="cart"></button>
+    </div>
+
+    <section class="slick-slider">
+        <div class="container-fluid" id="slickContainer">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="multiple-items">
+                        <div>
+                            <img src="images/img1.png" alt="images" class="fluid">
+                        </div>
+                        <div>
+                            <img src="images/img2.png" alt="images" class="fluid">
+                        </div>
+                        <div>
+                            <img src="images/img4.png" alt="images" class="fluid">
+                        </div>
+                        <div>
+                            <img src="images/img5.png" alt="images" class="fluid">
+                        </div>
+                        <div>
+                            <img src="images/img1.png" alt="images" class="fluid">
+                        </div>
+                        <div>
+                            <img src="images/img5.png" alt="images" class="fluid">
+                        </div>
+                        <div>
+                            <img src="images/img2.png" alt="images" class="fluid">
+                        </div>
+                        <div>
+                            <img src="images/img4.png" alt="images" class="fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="banner">
+        .<div class="container-fluid" id="BannerContainer">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="card bannerCard">
+                                <img src="images/banner1.png" class="card-img-top bannerImages" alt="bannerImage_1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Browse menus and build<br> your order in second</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card bannerCard">
+                                <img src="images/banner2.png" class="card-img-top bannerImages" alt="bannerImage_1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Follow the status of your <br>order with real-time alerts
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card bannerCard">
+                                <img src="images/banner3.png" class="card-img-top bannerImages" alt="bannerImage_1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Explore restaurants that <br>deliver to your doorstep </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="banner2">
+        <div class="container-fluid" id="flexContainer">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="h5 flex">Great Brands, Great Deals</p>
+                    <p class="flex_Quotes">Deals & Discount from all time Favorite brands</p>
+                </div>
+                <div class="col-lg-12">
+                    <div class="container-fluid" id="kfcContainer">
+                        <div class="row KfcRow1">
+                            <div class="col"></div>
+                            <div class="col-3">
+                                <img src="images/kfc1.png" class="rounded"  alt="kfcImages">
+                            </div>
+                            <div class="col-3">
+                                <img src="images/kfc2.png" class="rounded"  alt="kfcImages">
+                            </div>
+                            <div class="col-3">
+                                <img src="images/kfc3.png" class="rounded" alt="kfcImages">
+                            </div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                    <div class="row KfcRow2">
+                        <div class="col-3"></div>
+                        <div class="col-3">
+                            <img src="images/kfc4.png" class="rounded" id="kfcLink1" alt="kfcImages">
+                        </div>
+                        <div class="col-3">
+                            <img src="images/kfc5.png" class="rounded" id="kfcLink2" alt="kfcImages">
+                        </div>
+                        <div class="col"></div>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+    </section>
+    <section id="Pizzasection">
+        <div class="container-fluid" id="PizzaContainer">
+            <div class="row">
+                <div class="col-lg-12 pizzaHeading">
+                    <br>
+                    <br>
+                    <p class="h4">Our Most Populer deals </p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="row pizzaRow1">
+                            <div class="col-6">
+                                <img src="images/pizza1.png" class="rounded2" id="pizzaLink1" alt="pizzaImages">
+                            </div>
+                            <div class="col-6">
+                                <img src="images/pizza2.png" class="rounded2" id="pizzaLink2" alt="pizzaImages">
+                            </div>
+                        </div>
+                        <div class="row pizzaRow2">
+                            <div class="col-6">
+                                <img src="images/pizza3.png" class="rounded2" alt="pizzaImages">
+                            </div>
+                            <div class="col-6">
+                                <img src="images/pizza4.png" class="rounded2" alt="pizzaImages">
+                            </div>
+                        </div>
+                        <div class="row justify-content-center pizzaRow2">
+                            <div class="col-5">
+                                <img src="images/pizza5.png" class="rounded2" alt="pizzaImages">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+    </section>
+    <section id="offer">
+        <div class="container-fluid offer1" id="OfferContainer" style="display: none;">
+            <div class="container-fluid" style="background: white;">
+                <div class="row offer-row">
+                    <div class="col-md-6" style="background-color:#005062;">
+                        <div class="display-4 offer-container">Offer for You</div>
+                        <p class="offer-heading">Explore deals and offers exclusively for you!</p>
+                    </div>
+                    <div class="col-md-6"><img src="https://bit.ly/32Dtk3y" class="offer-log"></img></div>
+                </div>
+                <div class="container-fluid">
+                    <br>
+                    <div class="display-4">Restaurant offers</div>
+                    <br>
+                    <hr>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3 offer-btn"><button class="btn btn-primary btn1 btnOffer">50% Off
+                                above 399</button></div>
+                        <div class="col-sm-3 offer-btn"><button class="btn btn-primary btn2 btnOffer">40% Off
+                                above 299</button></div>
+                        <div class="col-sm-3 offer-btn"><button class="btn btn-primary btn3 btnOffer">30% Off
+                                above 199</button></div>
+                    </div>
+                </div>
+                <div class="container-fluid" style=" background: white;">
+                    <style>
+                    </style>
+                    <div class="row">
+                        <div class="col-lg-3 mdOffer">
+                            <div class="card quick1" style="width: 18rem;">
+                                <img src="images/Offer/image 3.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sandwidch</h5>
+                                    <p class="card-text">chinese</p>
+                                    <a href="#" class="btn btn-success">
+                                        <i class="fa fa-star" aria-hidden="true">&nbsp;&nbsp;4.2</i>
+                                    </a>
+                                    <span class="dot"></span>
+                                    <span class="display-7">45 mins</span>
+                                    <span class="dot"></span>
+                                    <span class="display-7">2 = &#x20b9; 320</span>
+                                    <hr>
+                                    <span><img class="offerimage" src="images/offer icon.png"
+                                            alt="offer">&nbsp;Offer</span>
+                                    <a href="#" class="of2">30% off</a><span class="vertical"></span>
+                                    <a href="#" class="of2">Use coupon</a>
+                                    <hr>
+                                    <button class="btn btnOrder orderBtn1">Order</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mdOffer">
+                            <div class="card quick2" style="width: 18rem;">
+                                <img src="images/Offer/image 3.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sandwidch</h5>
+                                    <p class="card-text">chinese</p>
+                                    <a href="#" class="btn btn-success">
+                                        <i class="fa fa-star" aria-hidden="true">&nbsp;&nbsp;4.2</i>
+                                    </a>
+                                    <span class="dot"></span>
+                                    <span class="display-7">45 mins</span>
+                                    <span class="dot"></span>
+                                    <span class="display-7">2 = &#x20b9; 320</span>
+                                    <hr>
+                                    <span><img class="offerimage" src="images/offer icon.png"
+                                            alt="offer">&nbsp;Offer</span>
+                                    <a href="#" class="of2">30% off</a><span class="vertical"></span>
+                                    <a href="#" class="of2">Use coupon</a>
+                                    <hr>
+                                    <button class="btn btnOrder orderBtn2">Order</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mdOffer">
+                            <div class="card quick3" style="width: 18rem;">
+                                <img src="images/Offer/image 5.1.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pizza</h5>
+                                    <p class="card-text">Indian, chinese</p>
+                                    <a href="#" class="btn btn-success">
+                                        <i class="fa fa-star" aria-hidden="true">&nbsp;&nbsp;4.2</i>
+                                    </a>
+                                    <span class="dot"></span>
+                                    <span class="display-7">40 mins</span>
+                                    <span class="dot"></span>
+                                    <span class="display-7">2 = &#x20b9; 550</span>
+                                    <hr><span><img class="offerimage" src="images/offer icon.png"
+                                            alt="offer">&nbsp;Offer</span>
+                                    <a href="#" class="of2">30% off</a><span class="vertical"></span>
+                                    <a href="#" class="of2">Use coupon</a>
+                                    <hr>
+                                    <button class="btn btnOrder orderBtn3">Order</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-1 mdOffer">
+                            <div class="quick">
+                                <div class="card quick4" style="width: 18rem;">
+                                    <img src="images/Offer/image 5.jpg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Burger</h5>
+                                        <p class="card-text">Indian, chinese</p>
+                                        <a href="#" class="btn btn-success">
+                                            <i class="fa fa-star" aria-hidden="true">&nbsp;&nbsp;4.2</i>
+                                        </a>
+                                        <span class="dot"></span>
+                                        <span class="display-7">40 mins</span>
+                                        <span class="dot"></span>
+                                        <span class="display-7">2 = &#x20b9; 550</span>
+                                        <hr><span><img class="offerimage" src="images/offer icon.png"
+                                                alt="offer">&nbsp;Offer</span>
+                                        <a href="#" class="of2">30% off</a><span class="vertical"></span>
+                                        <a href="#" class="of2">Use coupon</a>
+                                        <hr>
+                                        <button class="btn btnOrder orderBtn4">Order</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <!---end first row-->
+                    <div class="row">
+                        <div class="col-lg-3 mdOffer">
+                            <div class="quick">
+                                <div class="card quick5" style="width: 18rem;">
+                                    <img src="images/Offer/image 5.1.jpg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Pizza</h5>
+                                        <p class="card-text">Indian, chinese</p>
+                                        <a href="#" class="btn btn-success">
+                                            <i class="fa fa-star" aria-hidden="true">&nbsp;&nbsp;4.2</i>
+                                        </a>
+                                        <span class="dot"></span>
+                                        <span class="display-7">40 mins</span>
+                                        <span class="dot"></span>
+                                        <span class="display-7">2 = &#x20b9; 550</span>
+                                        <hr><span><img class="offerimage" src="images/offer icon.png"
+                                                alt="offer">&nbsp;Offer</span>
+                                        <a href="#" class="of2">30% off</a><span class="vertical"></span>
+                                        <a href="#" class="of2">Use coupon</a>
+                                        <hr>
+                                        <button class="btn btnOrder orderBtn5">Order</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mdOffer">
+                            <div class="card quick6" style="width: 18rem;">
+                                <img src="images/Offer/image 2.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Egg-Rice</h5>
+                                    <p class="card-text">chinese</p>
+                                    <a href="#" class="btn btn-success">
+                                        <i class="fa fa-star" aria-hidden="true">&nbsp;&nbsp;4.2</i>
+                                    </a>
+                                    <span class="dot"></span>
+                                    <span class="display-7">45 mins</span>
+                                    <span class="dot"></span>
+                                    <span class="display-7">2 = &#x20b9; 320</span>
+                                    <hr><span><img class="offerimage" src="images/offer icon.png"
+                                            alt="offer">&nbsp;Offer</span>
+                                    <a href="#" class="of2">30% off</a><span class="vertical"></span>
+                                    <a href="#" class="of2">Use coupon</a>
+                                    <hr>
+                                    <button class="btn btnOrder orderBtn6">Order</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mdOffer">
+                            <div class="card quick7" style="width: 18rem;">
+                                <img src="images/Offer/image 5.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Burger</h5>
+                                    <p class="card-text">Indian, chinese</p>
+                                    <a href="#" class="btn btn-success">
+                                        <i class="fa fa-star" aria-hidden="true">&nbsp;&nbsp;4.5</i>
+                                    </a>
+                                    <span class="dot"></span>
+                                    <span class="display-7">40 mins</span>
+                                    <span class="dot"></span>
+                                    <span class="display-7">2 = &#x20b9; 550</span>
+                                    <hr><span><img class="offerimage" src="images/offer icon.png"
+                                            alt="offer">&nbsp;Offer</span>
+                                    <a href="#" class="of2">30% off</a><span class="vertical"></span>
+                                    <a href="#" class="of2">Use coupon</a>
+                                    <hr>
+                                    <button class="btn btnOrder orderBtn7">Order</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-1 mdOffer">
+                            <div class="quick">
+                                <div class="card quick8" style="width: 18rem;">
+                                    <img src="images/Offer/image 3.jpg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Sandwidch</h5>
+                                        <p class="card-text">Indian, chinese</p>
+                                        <a href="#" class="btn btn-success">
+                                            <i class="fa fa-star" aria-hidden="true">&nbsp;&nbsp;4.2</i>
+                                        </a>
+                                        <span class="dot"></span>
+                                        <span class="display-7">40 mins</span>
+                                        <span class="dot"></span>
+                                        <span class="display-7">2 = &#x20b9; 550</span>
+                                        <hr><span><img class="offerimage" src="images/offer icon.png"
+                                                alt="offer">&nbsp;Offer</span>
+                                        <a href="#" class="of2">30% off</a><span class="vertical"></span>
+                                        <a href="#" class="of2">Use coupon</a>
+                                        <hr>
+                                        <button class="btn btnOrder orderBtn8">Order</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="KfcProduct1" style="display: none;">
+        <div class="container-fluid product-container" id="kfc1Container" style="margin-left:10px;">
+            <div class="row">
+                <div class="col-lg-4"><img src="images/kfc1.png" class="card-img-top1 thumbil-1" alt="...">
+                </div>
+                <div class="col-lg-4">
+                    <div class="display-4">KFC CHICKEN</div>
+                    <button class="btn btn-success product-indicator">Online</button>
+                    <br>
+                    <p class="product-place">Gandhipuram</p>
+                    <div class="row" style="margin-left:40px; ">
+                        <table class="table table-borderless">
+                            <thead>
+                                <tr>
+                                    <th scope="col" style="border-right:1px solid white;"><i class="fa fa-star"
+                                            aria-hidden="true">&nbsp;&nbsp;4.5</i></th>
+                                    <th scope="col" style="border-right:1px solid white;">28 mins</th>
+                                    <th scope="col">&#x20b9; 150</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <td colspan="1" style="border-right:1px solid white;">100+ Ratings</td>
+                                <td colspan="1" style="border-right:1px solid white;">Delivery time</td>
+                                <td colspan="1">Cost for two</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-lg-2" style="padding-top: 50px;padding-left:10px;">
+                    <div class="card-top1"><button class="btn btn-dark thumbil4">OFFER</button></div>
+                    <div class="flag">
+                        <div class="card-img-top" style="margin-top:40px;width:400px;"><i
+                                class="fa fa-star fa-2x">&nbsp;&nbsp;50% offer on orders above Rs 200 except combos</i>
+                            <div style="margin-left:10px;padding: 20px;width:900px;height:30px;margin-top:0px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="container-fluid" style=" background: white;">
+            <div class="row">
+                <div class="col-lg-3 mdOffer">
+                    <div class="card quick1" style="width: 18rem;">
+                        <img src="images/kfc1.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Sandwidch</h5>
+                            <p class="card-text">chinese</p>
+                            <a href="#" class="btn btn-success">
+                                <i class="fa fa-star" aria-hidden="true">&nbsp;&nbsp;4.2</i>
+                            </a>
+                            <span class="dot"></span>
+                            <span class="display-7">45 mins</span>
+                            <span class="dot"></span>
+                            <span class="display-7">2 = &#x20b9; 320</span>
+                            <hr>
+                            <span><img class="offerimage" src="images/offer icon.png" alt="offer">&nbsp;Offer</span>
+                            <a href="#" class="of2">30% off</a><span class="vertical"></span>
+                            <a href="#" class="of2">Use coupon</a>
+                            <hr>
+                            <button class="btn btnOrder orderBtn1">Order</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mdOffer">
+                    <div class="card quick2" style="width: 18rem;">
+                        <img src="images/kfc2.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Sandwidch</h5>
+                            <p class="card-text">chinese</p>
+                            <a href="#" class="btn btn-success">
+                                <i class="fa fa-star" aria-hidden="true">&nbsp;&nbsp;4.2</i>
+                            </a>
+                            <span class="dot"></span>
+                            <span class="display-7">45 mins</span>
+                            <span class="dot"></span>
+                            <span class="display-7">2 = &#x20b9; 320</span>
+                            <hr>
+                            <span><img class="offerimage" src="images/offer icon.png" alt="offer">&nbsp;Offer</span>
+                            <a href="#" class="of2">30% off</a><span class="vertical"></span>
+                            <a href="#" class="of2">Use coupon</a>
+                            <hr>
+                            <button class="btn btnOrder orderBtn2">Order</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mdOffer">
+                    <div class="card quick3" style="width: 18rem;">
+                        <img src="images/kfc3.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Pizza</h5>
+                            <p class="card-text">Indian, chinese</p>
+                            <a href="#" class="btn btn-success">
+                                <i class="fa fa-star" aria-hidden="true">&nbsp;&nbsp;4.2</i>
+                            </a>
+                            <span class="dot"></span>
+                            <span class="display-7">40 mins</span>
+                            <span class="dot"></span>
+                            <span class="display-7">2 = &#x20b9; 550</span>
+                            <hr><span><img class="offerimage" src="images/offer icon.png" alt="offer">&nbsp;Offer</span>
+                            <a href="#" class="of2">30% off</a><span class="vertical"></span>
+                            <a href="#" class="of2">Use coupon</a>
+                            <hr>
+                            <button class="btn btnOrder orderBtn3">Order</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1 mdOffer">
+                    <div class="quick">
+                        <div class="card quick4" style="width: 18rem;">
+                            <img src="images/kfc4.png" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Burger</h5>
+                                <p class="card-text">Indian, chinese</p>
+                                <a href="#" class="btn btn-success">
+                                    <i class="fa fa-star" aria-hidden="true">&nbsp;&nbsp;4.2</i>
+                                </a>
+                                <span class="dot"></span>
+                                <span class="display-7">40 mins</span>
+                                <span class="dot"></span>
+                                <span class="display-7">2 = &#x20b9; 550</span>
+                                <hr><span><img class="offerimage" src="images/offer icon.png"
+                                        alt="offer">&nbsp;Offer</span>
+                                <a href="#" class="of2">30% off</a><span class="vertical"></span>
+                                <a href="#" class="of2">Use coupon</a>
+                                <hr>
+                                <button class="btn btnOrder orderBtn4">Order</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!---end first row-->
+            <div class="row">
+                <div class="col-lg-3 mdOffer">
+                    <div class="quick">
+                        <div class="card quick5" style="width: 18rem;">
+                            <img src="images/kfc5.png" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Pizza</h5>
+                                <p class="card-text">Indian, chinese</p>
+                                <a href="#" class="btn btn-success">
+                                    <i class="fa fa-star" aria-hidden="true">&nbsp;&nbsp;4.2</i>
+                                </a>
+                                <span class="dot"></span>
+                                <span class="display-7">40 mins</span>
+                                <span class="dot"></span>
+                                <span class="display-7">2 = &#x20b9; 550</span>
+                                <hr><span><img class="offerimage" src="images/offer icon.png"
+                                        alt="offer">&nbsp;Offer</span>
+                                <a href="#" class="of2">30% off</a><span class="vertical"></span>
+                                <a href="#" class="of2">Use coupon</a>
+                                <hr>
+                                <button class="btn btnOrder orderBtn5">Order</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mdOffer">
+                    <div class="card quick6" style="width: 18rem;">
+                        <img src="images/kfc1.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Egg-Rice</h5>
+                            <p class="card-text">chinese</p>
+                            <a href="#" class="btn btn-success">
+                                <i class="fa fa-star" aria-hidden="true">&nbsp;&nbsp;4.2</i>
+                            </a>
+                            <span class="dot"></span>
+                            <span class="display-7">45 mins</span>
+                            <span class="dot"></span>
+                            <span class="display-7">2 = &#x20b9; 320</span>
+                            <hr><span><img class="offerimage" src="images/offer icon.png" alt="offer">&nbsp;Offer</span>
+                            <a href="#" class="of2">30% off</a><span class="vertical"></span>
+                            <a href="#" class="of2">Use coupon</a>
+                            <hr>
+                            <button class="btn btnOrder orderBtn6">Order</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mdOffer">
+                    <div class="card quick7" style="width: 18rem;">
+                        <img src="images/kfc4.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Burger</h5>
+                            <p class="card-text">Indian, chinese</p>
+                            <a href="#" class="btn btn-success">
+                                <i class="fa fa-star" aria-hidden="true">&nbsp;&nbsp;4.5</i>
+                            </a>
+                            <span class="dot"></span>
+                            <span class="display-7">40 mins</span>
+                            <span class="dot"></span>
+                            <span class="display-7">2 = &#x20b9; 550</span>
+                            <hr><span><img class="offerimage" src="images/offer icon.png" alt="offer">&nbsp;Offer</span>
+                            <a href="#" class="of2">30% off</a><span class="vertical"></span>
+                            <a href="#" class="of2">Use coupon</a>
+                            <hr>
+                            <button class="btn btnOrder orderBtn7">Order</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1 mdOffer">
+                    <div class="quick">
+                        <div class="card quick8" style="width: 18rem;">
+                            <img src="images/kfc2.png" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Sandwidch</h5>
+                                <p class="card-text">Indian, chinese</p>
+                                <a href="#" class="btn btn-success">
+                                    <i class="fa fa-star" aria-hidden="true">&nbsp;&nbsp;4.2</i>
+                                </a>
+                                <span class="dot"></span>
+                                <span class="display-7">40 mins</span>
+                                <span class="dot"></span>
+                                <span class="display-7">2 = &#x20b9; 550</span>
+                                <hr><span><img class="offerimage" src="images/offer icon.png"
+                                        alt="offer">&nbsp;Offer</span>
+                                <a href="#" class="of2">30% off</a><span class="vertical"></span>
+                                <a href="#" class="of2">Use coupon</a>
+                                <hr>
+                                <button class="btn btnOrder orderBtn8">Order</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="pizzaProduct" style="display: none;">
+        <div class="container-fluid product-container" style="margin-left:10px;">
+            <div class="row">
+                <div class="col-lg-4"><img src="images/pizza1.png" class="card-img-top1 thumbil-1" alt="...">
+                </div>
+                <div class="col-lg-4">
+                    <div class="display-4">PizzA Park</div>
+                    <button class="btn btn-success product-indicator">Online</button>
+                    <br>
+                    <p class="product-place">Tirupur</p>
+                    <div class="row" style="margin-left:40px; ">
+                        <table class="table table-borderless">
+                            <thead>
+                                <tr>
+                                    <th scope="col" style="border-right:1px solid white;"><i class="fa fa-star"
+                                            aria-hidden="true">&nbsp;&nbsp;4.5</i></th>
+                                    <th scope="col" style="border-right:1px solid white;">28 mins</th>
+                                    <th scope="col">&#x20b9; 150</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <td colspan="1" style="border-right:1px solid white;">100+ Ratings</td>
+                                <td colspan="1" style="border-right:1px solid white;">Delivery time</td>
+                                <td colspan="1">Cost for two</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-lg-2" style="padding-top: 50px;padding-left:10px;">
+                    <div class="card-top1"><button class="btn btn-dark thumbil4">OFFER</button></div>
+                    <div class="flag">
+                        <div class="card-img-top" style="margin-top:40px;width:400px;"><i
+                                class="fa fa-star fa-2x">&nbsp;&nbsp;50% offer on orders above Rs 200 except combos</i>
+                            <div style="margin-left:10px;padding: 20px;width:900px;height:30px;margin-top:0px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="container-fluid" style=" background: white;">
+            <div class="row">
+                <div class="col-lg-3 mdOffer">
+                    <div class="card quick1" style="width: 18rem;">
+                        <img src="images/pizza1.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Sandwidch</h5>
+                            <p class="card-text">chinese</p>
+                            <a href="#" class="btn btn-success">
+                                <i class="fa fa-star" aria-hidden="true">&nbsp;&nbsp;4.2</i>
+                            </a>
+                            <span class="dot"></span>
+                            <span class="display-7">45 mins</span>
+                            <span class="dot"></span>
+                            <span class="display-7">2 = &#x20b9; 320</span>
+                            <hr>
+                            <span><img class="offerimage" src="images/offer icon.png" alt="offer">&nbsp;Offer</span>
+                            <a href="#" class="of2">30% off</a><span class="vertical"></span>
+                            <a href="#" class="of2">Use coupon</a>
+                            <hr>
+                            <button class="btn btnOrder orderBtn1">Order</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mdOffer">
+                    <div class="card quick2" style="width: 18rem;">
+                        <img src="images/pizza2.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Sandwidch</h5>
+                            <p class="card-text">chinese</p>
+                            <a href="#" class="btn btn-success">
+                                <i class="fa fa-star" aria-hidden="true">&nbsp;&nbsp;4.2</i>
+                            </a>
+                            <span class="dot"></span>
+                            <span class="display-7">45 mins</span>
+                            <span class="dot"></span>
+                            <span class="display-7">2 = &#x20b9; 320</span>
+                            <hr>
+                            <span><img class="offerimage" src="images/offer icon.png" alt="offer">&nbsp;Offer</span>
+                            <a href="#" class="of2">30% off</a><span class="vertical"></span>
+                            <a href="#" class="of2">Use coupon</a>
+                            <hr>
+                            <button class="btn btnOrder orderBtn2">Order</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mdOffer">
+                    <div class="card quick3" style="width: 18rem;">
+                        <img src="images/pizza4.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Pizza</h5>
+                            <p class="card-text">Indian, chinese</p>
+                            <a href="#" class="btn btn-success">
+                                <i class="fa fa-star" aria-hidden="true">&nbsp;&nbsp;4.2</i>
+                            </a>
+                            <span class="dot"></span>
+                            <span class="display-7">40 mins</span>
+                            <span class="dot"></span>
+                            <span class="display-7">2 = &#x20b9; 550</span>
+                            <hr><span><img class="offerimage" src="images/offer icon.png" alt="offer">&nbsp;Offer</span>
+                            <a href="#" class="of2">30% off</a><span class="vertical"></span>
+                            <a href="#" class="of2">Use coupon</a>
+                            <hr>
+                            <button class="btn btnOrder orderBtn3">Order</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1 mdOffer">
+                    <div class="quick">
+                        <div class="card quick4" style="width: 18rem;">
+                            <img src="images/pizza5.png" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Burger</h5>
+                                <p class="card-text">Indian, chinese</p>
+                                <a href="#" class="btn btn-success">
+                                    <i class="fa fa-star" aria-hidden="true">&nbsp;&nbsp;4.2</i>
+                                </a>
+                                <span class="dot"></span>
+                                <span class="display-7">40 mins</span>
+                                <span class="dot"></span>
+                                <span class="display-7">2 = &#x20b9; 550</span>
+                                <hr><span><img class="offerimage" src="images/offer icon.png"
+                                        alt="offer">&nbsp;Offer</span>
+                                <a href="#" class="of2">30% off</a><span class="vertical"></span>
+                                <a href="#" class="of2">Use coupon</a>
+                                <hr>
+                                <button class="btn btnOrder orderBtn4">Order</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!---end first row-->
+            <div class="row">
+                <div class="col-lg-3 mdOffer">
+                    <div class="quick">
+                        <div class="card quick5" style="width: 18rem;">
+                            <img src="images/pizza2.png" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Pizza</h5>
+                                <p class="card-text">Indian, chinese</p>
+                                <a href="#" class="btn btn-success">
+                                    <i class="fa fa-star" aria-hidden="true">&nbsp;&nbsp;4.2</i>
+                                </a>
+                                <span class="dot"></span>
+                                <span class="display-7">40 mins</span>
+                                <span class="dot"></span>
+                                <span class="display-7">2 = &#x20b9; 550</span>
+                                <hr><span><img class="offerimage" src="images/offer icon.png"
+                                        alt="offer">&nbsp;Offer</span>
+                                <a href="#" class="of2">30% off</a><span class="vertical"></span>
+                                <a href="#" class="of2">Use coupon</a>
+                                <hr>
+                                <button class="btn btnOrder orderBtn5">Order</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mdOffer">
+                    <div class="card quick6" style="width: 18rem;">
+                        <img src="images/pizza1.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Egg-Rice</h5>
+                            <p class="card-text">chinese</p>
+                            <a href="#" class="btn btn-success">
+                                <i class="fa fa-star" aria-hidden="true">&nbsp;&nbsp;4.2</i>
+                            </a>
+                            <span class="dot"></span>
+                            <span class="display-7">45 mins</span>
+                            <span class="dot"></span>
+                            <span class="display-7">2 = &#x20b9; 320</span>
+                            <hr><span><img class="offerimage" src="images/offer icon.png" alt="offer">&nbsp;Offer</span>
+                            <a href="#" class="of2">30% off</a><span class="vertical"></span>
+                            <a href="#" class="of2">Use coupon</a>
+                            <hr>
+                            <button class="btn btnOrder orderBtn6">Order</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mdOffer">
+                    <div class="card quick7" style="width: 18rem;">
+                        <img src="images/pizza4.png" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Burger</h5>
+                            <p class="card-text">Indian, chinese</p>
+                            <a href="#" class="btn btn-success">
+                                <i class="fa fa-star" aria-hidden="true">&nbsp;&nbsp;4.5</i>
+                            </a>
+                            <span class="dot"></span>
+                            <span class="display-7">40 mins</span>
+                            <span class="dot"></span>
+                            <span class="display-7">2 = &#x20b9; 550</span>
+                            <hr><span><img class="offerimage" src="images/offer icon.png" alt="offer">&nbsp;Offer</span>
+                            <a href="#" class="of2">30% off</a><span class="vertical"></span>
+                            <a href="#" class="of2">Use coupon</a>
+                            <hr>
+                            <button class="btn btnOrder orderBtn7">Order</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1 mdOffer">
+                    <div class="quick">
+                        <div class="card quick8" style="width: 18rem;">
+                            <img src="images/pizza1.png" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Sandwidch</h5>
+                                <p class="card-text">Indian, chinese</p>
+                                <a href="#" class="btn btn-success">
+                                    <i class="fa fa-star" aria-hidden="true">&nbsp;&nbsp;4.2</i>
+                                </a>
+                                <span class="dot"></span>
+                                <span class="display-7">40 mins</span>
+                                <span class="dot"></span>
+                                <span class="display-7">2 = &#x20b9; 550</span>
+                                <hr><span><img class="offerimage" src="images/offer icon.png"
+                                        alt="offer">&nbsp;Offer</span>
+                                <a href="#" class="of2">30% off</a><span class="vertical"></span>
+                                <a href="#" class="of2">Use coupon</a>
+                                <hr>
+                                <button class="btn btnOrder orderBtn8">Order</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </section>
+    <div id="overlay1" onclick="off();" style="padding:20px">
+        <div id="text1">
+            <div class="card" id="user-window" style="width:25rem;">
+                <div class="card-body">
+                    <h5 class="h5">Signup with Meat app</h5>
+                    <hr class="hr">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <input type="name" class="form-control" id="inputEmail4" placeholder="Full Name">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <input type="number" class="form-control" id="inputEmail4" placeholder="Phone Number">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <input type="email" class="form-control" id="inputEmail4"
+                                    placeholder="Your Email Address">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <input type="password" class="form-control" id="inputEmail4"
+                                    placeholder="Choose Password">
+                            </div>
+                        </div>
+                    </form>
+                    <button class="btn" id="registerBtn">Register</button>
+                    <br>
+                    <br>
+                    <p class="p">Already have an account ?&nbsp;<span class="h5" id="loginTag"
+                            onclick="login()">LOGIN</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="overlay2" style="padding:20px">
+        <div id="text2">
+            <div class="card" id="user-window" style="width:25rem;">
+                <div class="card-body">
+                    <h5 class="h5">SignIn with Meat app</h5>
+                    <hr class="hr">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <input type="name" class="form-control" id="inputEmail4" placeholder="User Name">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <input type="password" class="form-control" id="inputEmail4" placeholder="Password">
+                            </div>
+                        </div>
+                    </form>
+                    <button class="btn" id="registerBtn">Login</button>
+                    <br>
+                    <br>
+                    <p class="p">Create an account ?&nbsp;<span class="h5" id="loginTag"
+                            onclick="register()">Register</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="topButton">
+        <div class="row">
+            <div class="col-12">
+                <button class="btn BackButton" onclick="backTop()">Back to top</button>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="jumbotron jumbotron-fluid" style="background: #2b2d2f;">
+            <div class="container-fluid">
+                <table class="table table-borderless">
+                    <thead>
+                        <tr>
+                            <th scope="col" style="color: white;">About</th>
+                            <th scope="col" style="color: white;">For Foodies</th>
+                            <th scope="col" style="color: white;">For Restaurants</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="" class="options">About Us</a></td>
+                            <td><a href="" class="options">Code of Conduct</a></td>
+                            <td><a href="" class="options">Add a Restaurant</a></td>
+                            <td>
+                                <a href="" class="options">Advertise</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a href="" class="options">Culture</a></td>
+                            <td><a href="" class="options">Community</a></td>
+                            <td><a href="" class="options">Claim your Listing</a></td>
+                            <td><a href="" class="options">Order</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="" class="options">Blog</a></td>
+                            <td><a href="" class="options">Verified Users</a></td>
+                            <td><a href="" class="options">Business App</a></td>
+                            <td><a href="" class="options">Book</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="" class="options">Careers</a></td>
+                            <td><a href="" class="options">Blogger help</a></td>
+                            <td><a href="" class="options">Business Owner Guidelines</a></td>
+                            <td><a href="" class="options">Trace</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="" class="options">Contact</a></td>
+                            <td><a href="" class="options">Developers</a></td>
+                            <td><a href="" class="options">Restaurant Widgets</a></td>
+                            <td><a href="" class="options">Hyperpure</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
+    <script src="js/offer.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+.fluid{
+    width:280px;
+    height: 270px;
+    margin-left:0px;
+    margin-right:0px;
+    padding-left:50px;
+}
+.multiple-items {
+    margin-top:15px;
+    padding-top: 0px;
+    padding-left:0px;
+}
+.slick-slider{
+    background-color: #0B0F39;
+}
+#slickContainer{
+    padding-left:40px;
+    padding-right: 40px;
+    background-color: #0B0F39;
+}

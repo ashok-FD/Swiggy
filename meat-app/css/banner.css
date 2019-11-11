@@ -1,0 +1,92 @@
+.bannerImages{
+    width:280px;
+    height: 280px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.bannerCard{
+    border: none;
+    text-align: center;
+}
+#BannerContainer,
+#flexContainer,
+#PizzaContainer {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.125);
+}
+.flex{
+    width: 981px;
+    height: 100px;
+    left: 30px;
+    margin-top: 40px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 86px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+.flex_Quotes{
+    width: 842px;
+    height: 50px;
+    left: 30px;
+    top: 30px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.63);
+}
+.rounded{
+    width: 405px;
+    height: 250px;
+    padding-left:60px;
+}
+.KfcRow1,
+.KfcRow2{
+    margin-top:20px;
+}
+.pizzaHeading{
+    text-align: center;
+}
+.rounded2 {
+    width: 655px;
+    height: 300px;
+    
+}
+.pizzaRow1{
+    margin-left:50px;
+    margin-top:20px;
+}
+.pizzaRow2{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.BackButton{
+    width: 100%;
+    background: rgba(40, 44, 53, 0.72);
+    color: white;
+}
+.slick-slider{
+    margin-top:100px;
+}
+.jumbotron-fluid{
+    margin-bottom: 0px;
+}
+.options{
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+}
+.options:hover{
+    text-decoration: none;
+    color:orange;
+    border-bottom: 1px solid orange;
+}
